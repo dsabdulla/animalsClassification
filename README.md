@@ -1,2 +1,0 @@
-# animalsClassification
-Animals Classificaton Model
