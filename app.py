@@ -4,13 +4,13 @@ import pathlib
 import plotly.express as px
 import platform
 plt = platform.system()
-if plt = 'Linux': pathlib.WindowsPath = pathlib.PosixPath
+if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 # title
 st.title("Hayvonlarni klassifikatsiya qiluvchi model")
 
 # rasmni yuklash
-file == st.file_uploader('Rasm yuklash', type=['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp'])
+file = st.file_uploader('Rasm yuklash', type=['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp'])
 if file:
     st.image(file)
 
