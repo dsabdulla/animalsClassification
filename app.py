@@ -8,6 +8,7 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 # title
 st.title("Hayvonlarni klassifikatsiya qiluvchi model")
+st.write("""Bu dasturimiz Ayiq, qush va asalarilarni aniqlaydi""")
 
 # rasmni yuklash
 file = st.file_uploader('Rasm yuklash', type=['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp'])
