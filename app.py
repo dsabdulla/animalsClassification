@@ -1,10 +1,10 @@
 import streamlit as st
 from fastai.vision.all import *
-import plotly.express as px
-
 import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+import plotly.express as px
+import platform
+plt = platform.system()
+if plt = 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 # title
 st.title("Hayvonlarni klassifikatsiya qiluvchi model")
