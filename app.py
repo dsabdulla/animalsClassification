@@ -10,7 +10,7 @@ if plt = 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 st.title("Hayvonlarni klassifikatsiya qiluvchi model")
 
 # rasmni yuklash
-file = st.file_uploader('Rasm yuklash', type=['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp'])
+file == st.file_uploader('Rasm yuklash', type=['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp'])
 if file:
     st.image(file)
 
